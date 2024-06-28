@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pbuild/public/pbuild.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- <div class="bg-black w-screen h-screen"></div> -->
+    <!-- Hero section -->
+    <div
+      style="background-image: url(./pbuild/assets/Images/bg.jpg)"
+      class="px-6 pt-7  pb-28 bg-center bg-cover md:bg-left lg:bg-right lg:pb-[15rem]"
+    >
+      <!-- Header -->
+      <div class="">
+      <div class="flex flex-row justify-between">
+        <div class="w-[28%]">
+          <img src="./pbuild/assets/Images/logo.svg" alt="" />
+        </div>
+        <ul class="flex flex-row gap-3">
+          <li>
+                <a
+                href="#"
+                class="font-sans font-semibold text-white text-base uppercase hover:text-orange-600"
+                >me</a
+                >
+          </li>
+          <li>
+                <a
+                href="#"
+                class="font-sans font-bold text-white text-base uppercase hover:text-orange-600"
+                >blog</a
+                >
+          </li>
+        </ul>
+      </div>
+      <!-- Hero content -->
+      <div class="flex flex-col items-center gap-7 mt-32 md:items-start">
+        <!-- Hero text -->
+        <div class="flex flex-col items-center gap-5 md:items-start">
+          <p
+            class="font-sans font-semibold text-orange-600 uppercase text-base pt-30"
+          >
+            Hello my name is
+          </p>
+          <h1
+            class="font-serif font-extrabold text-white capitalize text-6xl text-center md:text-7xl lg:flex lg:flex-col "
+          >
+            patrick bradley
+          </h1>
+          <h3 class="font-sans font-semibold text-white uppercase text-base">
+            I'm a writer and a video blogger
+          </h3>
+        </div>
+      </div>
+        <!-- Socials -->
+        <div class="flex flex-row items-center gap-3">
+          <a href=""
+            ><iconify-icon
+              class="text-white bg-zinc-800 rounded-full text-3xl p-2"
+              icon="ri:messenger-fill"
+            ></iconify-icon
+          ></a>
+          <a href=""
+            ><iconify-icon
+              class="text-white bg-zinc-800 rounded-full text-3xl p-2"
+              icon="ant-design:twitter-outlined"
+            ></iconify-icon
+          ></a>
+          <a href=""
+            ><iconify-icon
+              class="text-white bg-zinc-800 rounded-full text-3xl p-2"
+              icon="ri:instagram-fill"
+            ></iconify-icon
+          ></a>
+          <a href=""
+            ><iconify-icon
+              class="text-white bg-zinc-800 rounded-full text-3xl p-2"
+              icon="uil:youtube"
+            ></iconify-icon
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- End of hero section -->
+    <!-- Services section -->
+    <div class="bg-zinc-900 px-6 py-10">
+      <div class="flex flex-col gap-7 items-center text-center md:flex-row md:gap-[46%] md:px-10 lg:gap-[68%]">
+            <div class="flex flex-col gap-7 items-center text-center md:gap-2 md:text-left md:items-start lg:pl-10">
+              <p class="font-sans font-extrabold text-orange-600 text-base">01.</p>
+              <h2 class="font-sans font-extrabold text-white text-4xl capitalize">
+                  Services
+              </h2>
+            </div>
+            <div>
+            <button
+                class="bg-zinc-800 text-white font-sans text-xl uppercase rounded-md font-bold px-5 py-3"
+            >
+                View all services
+            </button>
+            </div>
+      </div>
+      <div class="gap-12 grid grid-cols-1  mt-10 md:grid-cols-3 md:gap-4 w-[90%] mx-[5%]  lg:gap-10">
+        <!-- Services items -->
+        <div
+          class="flex flex-col gap-7 items-center text-center bg-zinc-800 hover:bg-orange-700 duration-300 p-10 rounded-xl md:gap-4 md:py-8 md:px-5"
+        >
+            <iconify-icon
+              class="text-white text-3xl"
+              icon="mdi:folders-image"
+            ></iconify-icon>
+            <h3 class="capitalize text-white font-bold text-xl">
+              Filming services
+            </h3>
+            <p class="text-white font-sans text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              voluptatem veniam ut modi quam iure voluptate dolorum quod officia
+              ipsa.
+            </p>
+        </div>
+        <div
+          class="flex flex-col gap-7 items-center text-center bg-zinc-800 hover:bg-orange-700 duration-300 p-10 rounded-xl md:gap-4 md:py-8 md:px-5"
+        >
+          <iconify-icon
+            class="text-white text-3xl"
+            icon="material-symbols:network-node"
+          ></iconify-icon>
+          <h3 class="capitalize text-white font-bold text-2xl md:text-xl">
+            Digital marketing
+          </h3>
+          <p class="text-white font-sans text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+            voluptatem veniam ut modi quam iure voluptate dolorum quod officia
+            ipsa.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-7 items-center text-center bg-zinc-800 hover:bg-orange-700 duration-300 p-10 rounded-xl md:gap-4 md:py-8 md:px-5 "
+        >
+          <iconify-icon
+            class="text-white text-3xl"
+            icon="typcn:video"
+          ></iconify-icon>
+          <h3 class="capitalize text-white font-bold text-xl">
+            Visual effects
+          </h3>
+          <p class="text-white font-sans text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+            voluptatem veniam ut modi quam iure voluptate dolorum quod officia
+            ipsa.
+          </p>
+        </div>
+      </div>
+      <!-- Services counters -->
+      <div
+        class="bg-zinc-800 mt-10 px-6 py-10 w-[90%] mx-[5%] rounded-xl items-center text-center flex flex-col gap-3 md:flex-row md:gap-14 md:px-10 md:py-24 lg:px-[27%] lg:gap-20"
+      >
+            <div class="flex flex-col gap-10  md:flex-row md:gap-14 ">
+            <!-- Icon one -->
+            <div class="">
+                    <iconify-icon
+                    class="text-orange-600 text-3xl"
+                    icon="ic:sharp-people"
+                    ></iconify-icon>
+                    <h1 class="font-sans text-white font-bold text-5xl">459K</h1>
+                    <p class="font-sans text-zinc-200 font-base text-base capitalize">
+                    Subscribers
+                    </p>
+            </div>
+            <div>
+                    <iconify-icon
+                    class="text-orange-600 text-3xl"
+                    icon="zondicons:travel-case"
+                    ></iconify-icon>
+                    <h1 class="font-sans text-white font-bold text-5xl">300+</h1>
+                    <p class="font-sans text-zinc-200 font-base text-base capitalize">
+                    Projects
+                    </p>
+            </div>
+            <div>
+                    <iconify-icon
+                    class="text-orange-600 text-3xl"
+                    icon="fluent:script-16-filled"
+                    ></iconify-icon>
+                    <h1 class="font-sans text-white font-bold text-5xl">400</h1>
+                    <p class="font-sans text-zinc-200 font-base text-base capitalize">
+                    Video Scripts
+                    </p>
+            </div>
+            <div>
+                    <iconify-icon
+                    class="text-orange-600 text-3xl"
+                    icon="ion:camera"
+                    ></iconify-icon>
+                    <h1 class="font-sans text-white font-bold text-5xl">200</h1>
+                    <p class="font-sans text-zinc-200 font-base text-base capitalize">
+                    Commercials
+                    </p>
+            </div>
+            </div>
+      </div>
+      <!-- Clients area -->
+    </div>
+    <div
+      class="bg-zinc-800 w-[100%] items-center text-center pt-14 flex flex-col px-6 py-10  md:text-start  md:px-14 lg:grid lg:grid-cols-2 lg:gap-16 ">
+    
+      <div class="px-4 flex-col flex gap-2 mb-8 md:text-start md:mb-10">
+            <p class="text-orange-600 text-base font-sans font-extrabold md:text-start">02.</p>
+            <h2 class="capitalize text-white text-4xl font-bold md:text-start lg:font-extrabold lg:w-1/2 lg:text-6xl">our clients</h2>
+            <p class="text-white text-sm font-base font-medium text-center md:text-start md:text-xl lg:text-lg">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nam it
+            possimus et itaque id officia blanditiis reiciendis animi ipsum illum?
+            </p>
+      </div>
+      <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+            <div class="bg-black px-10 py-14 rounded-md lg:px-6">
+                <img src="./pbuild/assets/Images/client 1.png" alt="" />
+            </div>
+            <div class="bg-black px-10 py-14 rounded-md lg:px-6">
+                <img class="mt-5 " src=" ./pbuild/assets/Images/client 2.png " alt="" />
+            </div>
+            <div class="bg-black px-10 py-14 rounded-md lg:px-6">
+                <img src=" ./pbuild/assets/Images/client 3.png" alt="" />
+            </div>
+            <div class="bg-black px-10 py-14 rounded-md lg:px-6">
+                <img src=" ./pbuild/assets/Images/client 4.png" alt="" />
+            </div>
+            <div class="bg-black px-10 py-[72px] rounded-md lg:px-6">
+                <img src=" ./pbuild/assets/Images/client 5.png" alt="" />
+            </div>
+            <div class="bg-black px-10 py-[72px] rounded-md lg:px-6">
+                <img src=" ./pbuild/assets/Images/client 6.png" alt="" />
+            </div>
+            <div class="bg-black px-10 py-14 rounded-md lg:px-6">
+                <img class="mt-4" src=" ./pbuild/assets/Images/client 7.png" alt="" />
+            </div>
+            <div class="bg-black px-10 py-[72px] rounded-md lg:px-6 lg:py-16">
+                <img src=" ./pbuild/assets/Images/client 8.png" alt="" />
+            </div>
+      </div>
+    </div>
+    <!-- End of services section -->
+    <!-- News section -->
+        <div class="bg-black pt-10 pb-20 flex flex-col gap-10 mb-0 ">
+            <div class="items-center text-center flex flex-col gap-4 md:text-start md:items-start px-8">
+                <p class="text-orange-600 text-base font-bold font-sans">03.</p>
+                <h3 class="capitalize text-white text-3xl font-bold">News</h3>
+            </div>
+            <div class="grid grid-cols-1 gap-7 md:gap-7 md:grid-cols-2 md:items-center md:px-8">
+              
+                    <div class="md:w-50%">
+                        <div class=" group hover:shadow-black hover:shadow-2xl  overflow-hidden  duration-500">
+                            <img class="rounded-t-md group-hover:scale-105 duration-500" src="./pbuild/assets/Images/blog 1.jpg" alt="" />
+                        </div>
+                        <div class="bg-zinc-800 p-8 rounded-b-md flex flex-col gap-5">
+                            <p class="text-orange-600 font-sans font-bold font base uppercase">
+                            commercial
+                            </p>
+                            <h3 class="text-white font-sans font-bold text-2xl capitalize">
+                            Lorem ipsum dolor sit amet.
+                            </h3>
+                        </div>
+                   </div>
+                    <div>
+                        <div class=" group hover:shadow-black hover:shadow-2xl  overflow-hidden  duration-500">
+                            <img class="rounded-t-md  group-hover:scale-105  duration-500" src="./pbuild/assets/Images/blog 2.jpg" alt="" />
+                        </div>
+                        <div class="bg-zinc-800 p-8  rounded-b-md flex flex-col gap-5">
+                            <p class="text-orange-600 font-sans font-bold font base uppercase">
+                            commercial
+                            </p>
+                            <h3 class="text-white font-sans font-bold text-2xl capitalize">
+                            Lorem ipsum dolor sit amet.
+                            </h3>
+                        </div>
+                    </div>
+                    <div >
+                        <div class=" group hover:shadow-black hover:shadow-2xl  overflow-hidden  duration-500">
+                            <img class="rounded-t-md  group-hover:scale-105 duration-500" src="./pbuild/assets/Images/blog 3.jpg" alt="" />
+                        </div>
+                        <div class="bg-zinc-800 p-8  rounded-b-md flex flex-col gap-5">
+                            <p class="text-orange-600 font-sans font-bold font base uppercase">
+                            commercial
+                            </p>
+                            <h3 class="text-white font-sans font-bold text-2xl capitalize">
+                            Lorem ipsum dolor sit amet.
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="group hover:shadow-black hover:shadow-2xl  overflow-hidden duration-500">
+                            <img class="rounded-t-md  group-hover:scale-105 duration-500" src="./pbuild/assets/Images/blog 4.jpg" alt="" />
+                        </div>
+                        <div class="bg-zinc-800 p-8  rounded-b-md flex flex-col gap-5">
+                            <p class="text-orange-600 font-sans font-bold font base uppercase">
+                            commercial
+                            </p>
+                            <h3 class="text-white font-sans font-bold text-2xl capitalize">
+                            Lorem ipsum dolor sit amet.
+                            </h3>
+                        </div>
+                    </div>
+              </div>
+    </div>
+    <div class="bg-black p-6 mt-0">
+        <div class="bg-zinc-800 rounded-md items-center text-center lg:items-start  lg:text-start">
+            <div class="px-6 pt-10 ">
+                <div class="flex flex-col gap-7 lg:flex-row ">
+                  <div class="flex flex-col lg:gap-7">
+                    <p class="text-orange-600 text-base font-bold " >04.</p>
+                    <h3 class="text-white capitalize text-3xl font-bold">Let's talk about your project</h3>
+                    <p class="text-white text-lg w-[95%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo,  Quaerat inventore delectus rerum similique suscipit ullam ratione pariatur! Lorem ipsum dolor sit amet.</p>
+                    <div>
+                      <button class="text-white text-xl font-bold uppercase bg-zinc-800 border-2 rounded-md px-8 py-4 lg:bg-orange-600 lg:border-orange-600 border-orange-800 hover:bg-orange-600">
+                          contact
+                      </button>
+                  </div>
+                  </div>
+                   
+                    <div class="pt-4">
+                        <img src="./pbuild/assets/Images/person main.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+  
